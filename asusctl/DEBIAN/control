@@ -1,0 +1,9 @@
+Package: asusctl
+Version: 6.1.10
+Section: utils
+Priority: optional
+Architecture: amd64
+Depends: 
+Maintainer: Your Name <youremail@example.com>
+Description: A brief description of your package
+ A longer description of your package.
