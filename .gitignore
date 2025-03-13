@@ -1,0 +1,14 @@
+/private.key
+
+*.deb
+*.tar.bz2
+*.tar.bz2.*
+
+/temp/**
+/asusctl/**
+!/asusctl/DEBIAN/control
+
+/Packages.gz
+
+/temp/**
+!/**/.gitkeep

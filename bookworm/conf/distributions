@@ -1,0 +1,8 @@
+Origin: Foo
+Label: Foo Github
+Suite: stable
+Codename: bookworm
+Architectures: amd64
+Components: main
+Description: Debian x64 github repository
+SignWith: C4EF977250C5044F

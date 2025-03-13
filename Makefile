@@ -13,7 +13,7 @@ temp/asusctl-$(VERSION)/Cargo.toml: asusctl-$(VERSION).tar.bz2
 	tar -xvf asusctl-$(VERSION).tar.bz2
 	mv asusctl-$(VERSION) temp/
 
-asusctl.deb: asusctl-$(VERSION).tar.bz2	
+asusctl.deb: temp/asusctl-$(VERSION)/Cargo.toml
 	$(MAKE) -C temp/asusctl-$(VERSION) all
 	$(MAKE) -C temp/asusctl-$(VERSION) DESTDIR=asusctl install
 	dpkg-deb --root-owner-group --build asusctl
